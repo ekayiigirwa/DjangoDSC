@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>DSCotties' blog</title>
+    </head>
+    <body>
+        <div>
+            <h1><a href="/">DSC Scotties</a></h1>
+        </div>
+        <p>Hi there!</p>
+        <p>It works!</p>
+        <div>
+            <p>
+            {%  for post in posts %}
+            {{ post }}
+            {% endfor%}
+            
+            </p>
+        </div>
+        <div>
+            <h1><a href="/admin">Register or Login</a></h1>
+        </div>
+    </body>
+</html>
